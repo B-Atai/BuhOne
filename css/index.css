@@ -34,6 +34,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather", sans-serif;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
 .col-5 {
   width: 41.76%;
 }
@@ -81,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 17px;
   color: #222222;
   padding-left: 15px;
+  transition: 0.3s;
 }
 
 .contacts__link:hover {
@@ -99,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 17px;
   text-transform: uppercase;
   color: #222222;
+  transition: 0.3s;
 }
 
 .nav__link:hover {
@@ -146,5 +157,58 @@ h1, h2, h3, h4, h5, h6 {
 .hero__link:hover {
   background-color: #fff;
   color: #005FA3;
+}
+
+.services__subtitle {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  color: #BDBDBD;
+  padding: 140px 0 40px;
+}
+
+.services__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 69px;
+  color: #333333;
+  padding-bottom: 102px;
+}
+
+.services__items {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.services__img {
+  position: relative;
+}
+
+.services__img__hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 350px;
+  min-height: 360px;
+  background-color: #005FA3;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.services__img__hover:hover {
+  opacity: 0.65;
+}
+
+.services__text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  position: absolute;
+  bottom: 45px;
+  left: 45px;
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,51 @@
+.services{
+    &__subtitle{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 33px;
+        color: $color-gray;
+        padding: 140px 0 40px;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 69px;
+        color: $color-lightblack;
+        padding-bottom: 102px;
+    }
+
+    &__items{
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    &__img{
+        position: relative;
+        &__hover{
+            position: absolute;
+            left: 0;
+            top: 0;
+            min-width: 350px;
+            min-height: 360px;
+            background-color:$color-blue;
+            opacity: 0;
+            transition: 0.3s;
+            &:hover{
+                opacity: 0.65;
+            }
+        }
+    }
+
+    &__text{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 30px;
+        color: $color-white;
+        position: absolute;
+        bottom: 45px;
+        left: 45px;
+    }
+}

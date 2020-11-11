@@ -40,10 +40,10 @@
         line-height: 17px;
         color: $color-black;
         padding-left: 15px;
-    }
-
-    &__link:hover{
-        color: $color-blue;
+        transition: 0.3s;
+        &:hover{
+            color: $color-blue;
+        }
     }
 }
 
@@ -60,9 +60,9 @@
         line-height: 17px;
         text-transform: uppercase;
         color: $color-black;
-    }
-
-    &__link:hover{
-        color: $color-blue;
+        transition: 0.3s;
+        &:hover{
+            color: $color-blue;
+        }
     }
 }
