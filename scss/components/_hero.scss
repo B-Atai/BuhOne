@@ -1,0 +1,40 @@
+.hero{
+    position: relative;
+    min-height: 670px;
+    width: 100%;
+    &__bg{
+        background-image: url(../../images/hero.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        min-height: 670px;
+    }
+
+    &__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: $color-white;
+    max-width: 55%;
+    margin-bottom: 80px;
+    }
+
+    &__link{
+        color: $color-white;
+        background-color: $color-blue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        padding: 19px 55px;
+        &:hover{
+            background-color: $color-white;
+            color: $color-blue;
+        }
+    }
+}

@@ -2,6 +2,7 @@
     &__row {
         display: flex;
         padding-top: 22px;
+        padding-bottom: 31px;
     }
 
     &__logo {
@@ -13,7 +14,7 @@
             font-weight: 900;
             font-size: 36px;
             line-height: 50px;
-            color: $color--blue;
+            color: $color-blue;
             padding-left: 30px;
         }
     }
@@ -37,12 +38,12 @@
         font-weight: normal;
         font-size: 13px;
         line-height: 17px;
-        color: $color--black;
+        color: $color-black;
         padding-left: 15px;
     }
 
     &__link:hover{
-        color: $color--blue;
+        color: $color-blue;
     }
 }
 
@@ -58,10 +59,10 @@
         font-size: 14px;
         line-height: 17px;
         text-transform: uppercase;
-        color: $color--black;
+        color: $color-black;
     }
 
     &__link:hover{
-        color: $color--blue;
+        color: $color-blue;
     }
 }

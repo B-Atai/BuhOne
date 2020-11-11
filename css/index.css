@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__row {
   display: flex;
   padding-top: 22px;
+  padding-bottom: 31px;
 }
 
 .header__logo {
@@ -101,6 +102,49 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__link:hover {
+  color: #005FA3;
+}
+
+.hero {
+  position: relative;
+  min-height: 670px;
+  width: 100%;
+}
+
+.hero__bg {
+  background-image: url(../../images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  min-height: 670px;
+}
+
+.hero__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+  max-width: 55%;
+  margin-bottom: 80px;
+}
+
+.hero__link {
+  color: #fff;
+  background-color: #005FA3;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding: 19px 55px;
+}
+
+.hero__link:hover {
+  background-color: #fff;
   color: #005FA3;
 }
 /*# sourceMappingURL=index.css.map */
