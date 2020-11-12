@@ -1,0 +1,20 @@
+.clients{
+    background-color: #EBEBEB;
+    &__title{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 69px;
+        color: $color-lightblack;
+        margin-bottom: 80px;
+    }
+
+    &__content{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    &__items{
+        padding-bottom: 210px;
+    }
+}
