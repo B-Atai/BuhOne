@@ -1,0 +1,111 @@
+.contacts{
+    position: relative;
+    min-height: 620px;
+    &__bg{
+        background-image: url(../../images/hero.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    &__content{
+        min-height: 620px;
+        display: flex;
+    }
+    &__left{
+        padding-top: 122px;
+    }
+    &__right{
+        padding-top: 135px;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 69px;
+        color: $color-white;
+    }
+    &__descriptions{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        color: $color-white;
+        padding: 60px 110px 80px 0;
+    }
+    &__icons{
+        padding-right: 15px;
+    }
+    &__items{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 29px;
+        color: $color-white;
+        span{
+            padding-right: 40px;
+        }
+    }
+    &__flex{
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px;
+    }
+    &__flex:nth-child(2){
+        padding-right: 0;
+    }
+    &__flex:nth-child(3){
+        padding-right: 0;
+    }
+    &__name{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color-white;
+        &--input{
+            padding: 15px 0;
+            color: $color-gray;
+            border-top: transparent;
+            border-right: transparent;
+            border-left: transparent;
+            border-bottom: 1px solid #fff;
+            background-color: transparent;
+        }
+    }
+    &__message{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color-white;
+        padding-top: 35px;
+        &--input{
+            padding: 15px 0 84px;
+            color: $color-gray;
+            border-top: transparent;
+            border-right: transparent;
+            border-left: transparent;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background-color: transparent;
+        }
+    }
+    &__link{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 50px;
+        a{
+            background-color: $color-blue;
+            color: $color-white;
+            padding: 19px 18px;
+            transition: 0.3s;
+        }
+        a:hover{
+            color: $color-blue;
+            background-color: $color-white;
+        }
+    }
+}

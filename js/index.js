@@ -1,7 +1,7 @@
 $('.hero__items').slick({
     infinite: true,
-    speed: 500,
-    fade: true,
+    speed: 1000,
+    fade:true,
     cssEase: 'linear',
     dots:true
   });

@@ -18,21 +18,21 @@
                 </div>
                 <div class="col-7">
                     <div class="header__contacts">
-                        <div class="contacts__item">
+                        <div class="header__item">
                             <img src="./images/phone.svg" alt="phone">
-                            <a href="#" class="contacts__link">8 (111) 222-33-44</a>
+                            <a href="#" class="header__link">8 (111) 222-33-44</a>
                         </div>
-                        <div class="contacts__item">
+                        <div class="header__item">
                             <img src="./images/watch.svg" alt="watch">
-                            <a href="#" class="contacts__link">Пн-Пт 10:00-18:00</a>
+                            <a href="#" class="header__link">Пн-Пт 10:00-18:00</a>
                         </div>
-                        <div class="contacts__item">
+                        <div class="header__item">
                             <img src="./images/mail.svg" alt="mail">
-                            <a href="#" class="contacts__link">order@buhone.ru</a>
+                            <a href="#" class="header__link">order@buhone.ru</a>
                         </div>
-                        <div class="contacts__item">
+                        <div class="header__item">
                             <img src="./images/point.svg" alt="point">
-                            <a href="#" class="contacts__link">Невский пр. 130</a>
+                            <a href="#" class="header__link">Невский пр. 130</a>
                         </div>
                     </div>
                     <nav class="header__nav nav">
@@ -50,43 +50,32 @@
     </header>
     <main>
         <section class="hero">
-            <div class="hero__slider">
-                <div class="hero__items">
-                    <div class="hero__block">
-                        <div class="container">
+            <div class="hero__bg">
+                <div class="container">
+                    <div class="hero__slider">
+                        <div class="hero__items">
                             <div class="hero__content">
                                 <h1 class="hero__title">Бухгалтерские услуги
                                     в Санкт-Петербурге</h1>
                                 <a href="#" class="hero__link">Наша презентация</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="hero__block">
-                        <div class="container">
                             <div class="hero__content">
-                                <h1 class="hero__title">Бухгалтерские услуги
+                                <h1 class="hero__title">Коммерческие услуги
+                                    в Санкт-Петербурге</h1>
+                                <a href="#" class="hero__link">Наша презентация</a>
+                            </div>
+                            <div class="hero__content">
+                                <h1 class="hero__title">Банковские услуги
+                                    в Санкт-Петербурге</h1>
+                                <a href="#" class="hero__link">Наша презентация</a>
+                            </div>
+                            <div class="hero__content">
+                                <h1 class="hero__title">Бизнес услуги
                                     в Санкт-Петербурге</h1>
                                 <a href="#" class="hero__link">Наша презентация</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="hero__block">
-                        <div class="container">
-                            <div class="hero__content">
-                                <h1 class="hero__title">Бухгалтерские услуги
-                                    в Санкт-Петербурге</h1>
-                                <a href="#" class="hero__link">Наша презентация</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hero__block">
-                        <div class="container">
-                            <div class="hero__content">
-                                <h1 class="hero__title">Бухгалтерские услуги
-                                    в Санкт-Петербурге</h1>
-                                <a href="#" class="hero__link">Наша презентация</a>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -268,7 +257,56 @@
                 </div>
             </div>
         </section>
+        <section class="contacts">
+            <div class="contacts__bg">
+                <div class="container">
+                    <div class="row contacts__content">
+                        <div class="col-6 contacts__left">
+                            <h2 class="contacts__title">Связь с нами</h2>
+                            <p class="contacts__descriptions">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+                            <div class="row contacts__items">
+                                <img src="./images/phone.svg" alt="phone" class="contacts__icons">
+                                <span>+7 (111) 222-33-44</span>
+                                <img src="./images/mail.svg" alt="" class="contacts__icons">
+                                <span>order@bu-one.ru</span>
+                            </div>
+                        </div>
+                        <div class="col-6 contacts__right">
+                            <form action="">
+                                <div class="row contacts__items">
+                                    <label for="" class="col-6 contacts__flex">
+                                        <span class="contacts__name">Имя</span>
+                                        <input type="text" class="contacts__name--input" placeholder="Иван">
+                                    </label>
+                                    <label for="" class="col-6 contacts__flex">
+                                        <span class="contacts__name">Фамилия</span>
+                                        <input type="text" class="contacts__name--input" placeholder="Иван">
+                                    </label>
+                                    <label for="" class="col-12 contacts__flex">
+                                        <span class="contacts__message">Сообщение</span>
+                                        <input type="text" class="contacts__message--input" placeholder="Иван">
+                                    </label>
+                                    <label for="" class="col-12 contacts__link">
+                                        <a href="#" >Отправить сообщение</a>
+                                    </label>
+                                    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer___items">
+                <p>2019 (с) Все права защищены. БухОне.ру</p>
+                <p>Разработано: BuhOne</p>
+            </div>
+        </div>
+    </footer>
+    
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/index.js"></script>

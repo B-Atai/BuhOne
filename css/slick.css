@@ -130,11 +130,13 @@
     width: 60px;
     height: 60px;
     font-size: 0;
-    bottom: 20%;
-    right: 20%;
+    bottom: 113px;
+    right: 0;
     background-color: rgb(255,255,255, 0.4);
     border: none;
     outline: none;
+    opacity: 0.4;
+    transition: 0.3s;
 }
 
 .slick-arrow:hover{
@@ -147,7 +149,7 @@
     background-size: 12px;
     background-position: center;
     box-sizing: border-box;
-    right: 24%;
+    right: 60px;
 }
 
 .slick-arrow.slick-next{
@@ -157,13 +159,11 @@
     background-position: center;
     box-sizing: border-box;
 }
-
 .slick-dots{
     position: absolute;
     display: flex;
     font-size: 0;
     bottom: 113px;
-    left: 20%;
 }
 
 .slick-dots button{
@@ -197,17 +197,14 @@
     opacity: 0.2;
     border: none;
     outline: none;
+    transition: 0.3s;
 }
 
 .clients__items .slick-arrow.slick-prev{
     right: 60px;
 }
 
-.clients__items .slick-arrow.slick-prev:hover{
-    opacity: 1;
-}
-
-.clients__items .slick-arrow.slick-next:hover{
+.clients__items .slick-arrow:hover{
     opacity: 1;
 }
 
