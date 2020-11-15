@@ -21,129 +21,83 @@ $('.reviews__items').slick({
   slidestoScroll:1,
   dots:true
 });
+// gsap animation
+TweenMax.from('.header__logo', 1.4, {
+  delay: 0.1,
+  x: "-100vw",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.header__item', 1.4, {
+  delay: 0.2,
+  y: "-50",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.header__nav', 1.6, {
+  delay: 0.4,
+  y: "50",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.hero__slider', 1.6, {
+  delay: 0.1,
+  x: "-100vw",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.subtitle', 1.3, {
+  delay: 0.2,
+  x: "-100vw",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.services__title', 1.5, {
+  delay: 0.4,
+  x: "-100vw",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.services__items img', 1.5, {
+  delay: 0.1,
+  opacity: 0,
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.services__items span', 1.5, {
+  delay: 0.1,
+  opacity: 0,
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.clients__title', 1.5, {
+  delay: 0.1,
+  x: "-100vw",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.clients__slider', 1.5, {
+  delay: 0.1,
+  opacity: 0,
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.reviews__title', 1.5, {
+  delay: 0.1,
+  x: "-100vw",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.reviews__slider', 1.5, {
+  delay: 0.1,
+  opacity: 0,
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.about__left .about__title', 1, {
+  delay: 0.2,
+  x:"-100vw",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.about__left .about__description', 1, {
+  delay: 0.4,
+  x:"-100vw",
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.about__right .about__items', 1, {
+  delay: 0.4,
+  opacity: 0,
+  ease: Expo.easeInOut,
+});
 
-// let scene = document.getElementById('scene');
-// let parallax = new Parallax(scene);
-
-// function timer() {
-//   TweenMax.from('.header__logo', 1, {
-//     opacity: 0,
-//     x: -20,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.staggerFrom(
-//     '.nav ul li',
-//     1,
-//     {
-//       opacity: 0,
-//       x: -20,
-//       ease: Power3.easeInOut,
-//     },
-//     0.08,
-//   );
-
-//   TweenMax.from('.hero__title', 1, {
-//     delay: 0.5,
-//     opacity: 0,
-//     x: -20,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.hero__description', 1, {
-//     delay: 0.6,
-//     opacity: 0,
-//     x: -20,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.btn', 1, {
-//     delay: 0.7,
-//     opacity: 0,
-//     x: -20,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.hero__courier', 1, {
-//     delay: 1,
-//     opacity: 0,
-//     x: -100,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.system-elements', 2, {
-//     opacity: 0,
-//     x: -20,
-//     ease: Power3.easeInOut,
-//   });
-//   TweenMax.from('.hero__mint', 2, {
-//     delay: 1.1,
-//     opacity: 0,
-//     y: -800,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.hero__mint--small', 2, {
-//     delay: 1.3,
-//     opacity: 0,
-//     y: -800,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.hero__pepper', 2, {
-//     delay: 1.3,
-//     opacity: 0,
-//     y: -800,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('#search', 2, {
-//     delay: 0.7,
-//     opacity: 0,
-//     x: -20,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.title', 1, {
-//     delay: 1,
-//     opacity: 0,
-//     y: 20,
-//     ease: Expo.easeInOut,
-//   });
-//   TweenMax.from('.tagline', 1, {
-//     delay: 1.3,
-//     opacity: 0,
-//     y: 20,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.pages', 1, {
-//     delay: 1,
-//     opacity: 0,
-//     y: 20,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.more', 1, {
-//     delay: 1.4,
-//     opacity: 0,
-//     y: 20,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.desc', 1, {
-//     delay: 1.4,
-//     opacity: 0,
-//     y: 20,
-//     ease: Expo.easeInOut,
-//   });
-
-//   TweenMax.from('.arrows', 1, {
-//     delay: 1.4,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//   });
-// }
 
 // setTimeout(timer, 500);
 
