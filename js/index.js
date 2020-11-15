@@ -195,8 +195,63 @@ TweenMax.from('.reviews__slider', 1.5, {
   ease: Expo.easeInOut,
 });
 
+// contacts
+TweenMax.from('.contacts__bg', 1, {
+  delay: 0,
+  opacity: 0,
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.contacts__title', 1, {
+  delay: 0.1,
+  opacity: 0,
+  x: '-100%',
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.contacts__descriptions', 1, {
+  delay: 0.2,
+  opacity: 0,
+  x: '-100%',
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.contacts__items .contacts__icons', 1, {
+  delay: 0.3,
+  opacity: 0,
+  x: '-100%',
+  ease: Expo.easeInOut,
+});
 
+TweenMax.from('.contacts__items span', 1, {
+  delay: 0.4,
+  opacity: 0,
+  x: '-100%',
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.contacts__name--input', 1, {
+  delay: 0.4,
+  opacity: 0,
+  x: '100%',
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.contacts__message--input', 1, {
+  delay: 0.4,
+  opacity: 0,
+  x: '100%',
+  ease: Expo.easeInOut,
+});
+TweenMax.from('.contacts__link', 1, {
+  delay: 0.4,
+  opacity: 0,
+  x: '100%',
+  ease: Expo.easeInOut,
+});
 
+//footer 
+TweenMax.from('.footer', 1, {
+  delay: 0.1,
+  opacity: 0,
+  y: '100%',
+  ease: Expo.easeInOut,
+});
 // setTimeout(timer, 500);
 
 // TweenMax.to('.over-1', 1, {
