@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero__bg {
-  background-image: url(../../images/hero.png);
+  background-image: url("../images/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contacts__bg {
-  background-image: url(../../images/hero.png);
+  background-image: url("../images/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
